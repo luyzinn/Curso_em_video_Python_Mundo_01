@@ -1,0 +1,24 @@
+print('== DESAFIO 09 ==')
+t=int(input('Digite um número para ver sua tabuada: '))
+x1 = t * 1
+x2 = t * 2
+x3 = t * 3
+x4 = t * 4
+x5 = t * 5
+x6 = t * 6
+x7 = t * 7
+x8 = t * 8
+x9 = t * 9
+x10 = t * 10
+print('='*12)
+print('{} x 1  = {:2}'.format(t,x1))
+print('{} x 2  = {:2}'.format(t,x2))
+print('{} x 3  = {:2}'.format(t,x3))
+print('{} x 4  = {:2}'.format(t,x4))
+print('{} x 5  = {:2}'.format(t,x5))
+print('{} x 6  = {:2}'.format(t,x6))
+print('{} x 7  = {:2}'.format(t,x7))
+print('{} x 8  = {:2}'.format(t,x8))
+print('{} x 9  = {:2}'.format(t,x9))
+print('{} x 10 = {:2}'.format(t,x10))      
+print('='*12)

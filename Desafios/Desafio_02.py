@@ -1,0 +1,5 @@
+nome = input('Qual o seu nome?')
+dia = input('Qual o dia do seu nascimento?')
+mes = input('Em que mes voce nasceu?')
+ano = input('E qual foi o ano que voce nasceu?')
+print('Olá,',nome,'!. Voce nasceu em ', dia,'de', mes,'de',ano,'. Esta correto?')
