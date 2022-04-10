@@ -41,3 +41,13 @@ Para importar módulos completos usamos:<br/>
 *Import Módulo completo* - Ex: **import match** <br/>
 *Para ferramenta específica do módulo* - Ex: **from math import ceil**<br/>
 
+
+
+### Extra:  ***Comandos mais usados no Git/Gitub***
+
+git status - Verificar status da pasta e arquivos<br/>
+git add . - adicionar o repositorio local<br/> 
+git commit -m " " - Escrevar um commit ou comentário sobre a versao a ser adicionada<br/>
+git push origin main - Fazer push e enviar arquivos para o github<br/>
+git pull - Git pull -Se você estiver no seu ambiente de trabalho e quiser atualizar a branch que está trabalhando!<br/>
+
