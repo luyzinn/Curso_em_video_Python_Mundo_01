@@ -51,3 +51,26 @@ git commit -m " " - Escrevar um commit ou comentário sobre a versao a ser adici
 git push origin main - Fazer push e enviar arquivos para o github<br/>
 git pull - Git pull -Se você estiver no seu ambiente de trabalho e quiser atualizar a branch que está trabalhando!<br/>
 
+
+### Manipulando Textos 
+
+                 frase = 'ESTOU APRENDENDO A PROGRAMAR EM PYHTON' 
+
+[   ] -> Símbolo de indice (listas)
+
+frase[9] -> Pega os caracteres das posições indicadas -- letra E<br/>
+frase[9:13] -> Pega os caracteres das posições indicadas -- ENDE<br/>
+frase[9:18:2]-> Pega os caracteres das posições indicadas pulando 2 - EDNOA<br/>
+len() -> Mostra quantas letras tem a frase -- len(frase) = 38 letras<br/>
+count() -> Conta quantas vezes aparece a letra escolhida -- frase.count('s')<br/>
+find() -> Procura os caracteres escolhido ------ frase.find('aprendendo')<br/>
+replace() -> Troca uma palavra por outra na frase -- frase.replace('python','JavaScript')<br/>
+upper() -> Colocar todas as outras letras em maiúsculo -- frase.upper()<br/>
+lower() -> Colocar todas as outras letras em minusculo -- frase.lower()<br/>
+capilalize() -> Coloca todas a frase em minusculo menos a 1 letra -- frase.capitalize()<br/>
+title() -> Todas as palavras começa com letra maiúscula -- frase.title()<br/>
+strip() -> Tira o espaço do começo e no fim da frase -- frase.strip()  frase.lstrip()  frase.rstrip()<br/>
+split() -> Vai ocorrer uma divisão entre os espaços da frase ----- frase.split()<br/>
+.join() -> Juntar uma coisa com a outra -- '-'.join.frase Estou-aprendendo-a-programar-em-python<br/>
+
+
