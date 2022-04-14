@@ -63,7 +63,8 @@ frase[9:13] -> Pega os caracteres das posições indicadas -- ENDE<br/>
 frase[9:18:2]-> Pega os caracteres das posições indicadas pulando 2 - EDNOA<br/>
 len() -> Mostra quantas letras tem a frase -- len(frase) = 38 letras<br/>
 count() -> Conta quantas vezes aparece a letra escolhida -- frase.count('s')<br/>
-find() -> Procura os caracteres escolhido ------ frase.find('aprendendo')<br/>
+find() -> Procura os caracteres escolhido e mostra a posiçao - frase.find('aprendendo')<br/>
+rfind() -> Procura os caracteres escolhido a direita.. ou seja o ultimo - frase.find('aprendendo')<br/>
 replace() -> Troca uma palavra por outra na frase -- frase.replace('python','JavaScript')<br/>
 upper() -> Colocar todas as outras letras em maiúsculo -- frase.upper()<br/>
 lower() -> Colocar todas as outras letras em minusculo -- frase.lower()<br/>
