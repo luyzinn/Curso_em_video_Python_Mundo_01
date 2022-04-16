@@ -41,6 +41,13 @@ Para importar módulos completos usamos:<br/>
 *Import Módulo completo* - Ex: **import match** <br/>
 *Para ferramenta específica do módulo* - Ex: **from math import ceil**<br/>
 
+*from random import randint* Usar nesse caso a linha randint (0,5)<br/>
+
+import random - Usar para a função randrage( escolher qual o range..o começo é zero..escolher apenas o número o qual ele deve ir)<br/>
+
+**from time import sleep** <br/>
+função do módulo time que faz o computador 'dormir' ou esperar um determinado tempo para prosseguir o algoritimo<br/>
+
 
 
 ### Extra:  ***Comandos mais usados no Git/Gitub***
@@ -73,5 +80,7 @@ title() -> Todas as palavras começa com letra maiúscula -- frase.title()<br/>
 strip() -> Tira o espaço do começo e no fim da frase -- frase.strip()  frase.lstrip()  frase.rstrip()<br/>
 split() -> Vai ocorrer uma divisão entre os espaços da frase ----- frase.split()<br/>
 .join() -> Juntar uma coisa com a outra -- '-'.join.frase Estou-aprendendo-a-programar-em-python<br/>
+
+
 
 
