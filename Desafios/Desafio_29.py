@@ -2,7 +2,7 @@
 # Se ele ultrapassar 80Km/h, mostre uma mensagem dizendo que ele foi multado. 
 # A multa vai custar R$7,00 por cada Km acima do limite.
 
-velocidade_atual = int(input('Qual a velocidade do veículo? Km/h ')) 
+velocidade_atual = float(input('Qual a velocidade do veículo? Km/h ')) 
 if velocidade_atual <= 80:
     print('Muito bem .. continue respeitando a velocidade máxima permitida que é de 80 Km/h!')
 else:
