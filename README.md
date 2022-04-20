@@ -71,7 +71,25 @@ lower() -> Colocar todas as outras letras em minusculo -- frase.lower()<br/>
 capilalize() -> Coloca todas a frase em minusculo menos a 1 letra -- frase.capitalize()<br/>
 title() -> Todas as palavras começa com letra maiúscula -- frase.title()<br/>
 strip() -> Tira o espaço do começo e no fim da frase -- frase.strip()  frase.lstrip()  frase.rstrip()<br/>
+<br/>
 split() -> Vai ocorrer uma divisão entre os espaços da frase ----- frase.split()<br/>
+<p>
+Exemplo: frase = 'Curso em vídeo Python'<br/>
+print(frase.split()) - Divide a frase em uma lista com os objetos ['Curso', 'em', 'vídeo', 'Python']<br/>
+div = frase.split()<br/>
+print(div[0]) - *Mostra a posiçao 0 do item da lista .. no caso == ['Curso']*<br/>
+</p>
 .join() -> Juntar uma coisa com a outra -- '-'.join.frase Estou-aprendendo-a-programar-em-python<br/>
+
+### Condicionais IF e ELSE
+
+*variável* = int(input('Quantos anos seu carro tem? '))
+if *variável* >=3: *A condiçao vem antes dos :*
+    print('Seu carro é velho')
+else: *Nao esquecer dos :*
+    print('Seu carro é novo')
+>> Aqui temos uma condicional composta!
+
+
 
 

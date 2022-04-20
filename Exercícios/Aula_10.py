@@ -2,7 +2,7 @@
 #Condicionais if e else
 
 #Exemplo 01
-'''
+
 tempo = int(input('Quantos anos seu carro tem? '))
 if tempo >=3:
     print('Seu carro é velho')
@@ -16,7 +16,7 @@ if nome == 'Luiz':
     print('Belo nome')
 else:
     print('Voce tem um nome tao normal nao é?')
-print('Obrigado pela sua colaboraçao')'''
+print('Obrigado pela sua colaboraçao')
 
 #Exemplo 03
 
