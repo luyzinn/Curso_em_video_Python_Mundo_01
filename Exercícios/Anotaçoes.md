@@ -52,3 +52,4 @@ print('O sucessor de {} é {} e o antecessor é {} '.format(n, (n+1), (n-1)))
   split() -> Vai ocorrer uma divisão entre os espaços da frase ----- frase.split()
   .join() -> Juntar uma coisa com a outra -- '-'.join.frase Estou-aprendendo-a-programar-em-python
 
+
